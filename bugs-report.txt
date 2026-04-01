@@ -1,0 +1,32 @@
+REPORTE DE BUG
+
+ID: BUG-01
+Título: Mensaje de error poco claro
+
+Severidad: Media
+Prioridad: Alta
+
+Descripción:
+El sistema no muestra un mensaje claro cuando el login falla
+
+Pasos para reproducir:
+
+Ir a login
+Ingresar usuario válido
+Ingresar contraseña incorrecta
+Presionar login
+
+Resultado esperado:
+Mensaje claro indicando credenciales incorrectas
+
+Resultado actual:
+Mensaje genérico poco descriptivo
+
+ID: BUG-02
+Título: No validación clara de campos vacíos
+
+Severidad: Baja
+Prioridad: Media
+
+Descripción:
+El sistema no indica específicamente qué campo falta
